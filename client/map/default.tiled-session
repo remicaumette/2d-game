@@ -1,0 +1,78 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "main.json",
+    "expandedProjectPaths": [
+        "output",
+        "."
+    ],
+    "fileStates": {
+        "main.json": {
+            "scale": 1.5592391304347826,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 239.86057859881493,
+                "y": 27.898222377134857
+            }
+        },
+        "main.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 366.5,
+                "y": 145.25
+            }
+        },
+        "output/main.json": {
+            "scale": 2.2404166666666665,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.13390366375305,
+                "y": 184.56388320624885
+            }
+        },
+        "output/overworld.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "overworld.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "overworld.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/home/remi/Documents/testgame/map/output",
+    "last.imagePath": "/home/remi/Documents/testgame/map/gfx",
+    "map.fixedSize": false,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "main.json",
+        "overworld.json"
+    ],
+    "project": "default.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "overworld.json",
+        "main.json",
+        "output/main.json",
+        "overworld.tsx",
+        "main.tmx",
+        "output/overworld.json"
+    ],
+    "tileset.lastUsedFormat": "json",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

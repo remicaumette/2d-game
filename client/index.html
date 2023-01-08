@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Game</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      body {
+        background: #000
+      }
+
+      .chat-container {
+        width: 50%;
+      }
+
+      .chat-message {
+        color: #fff;
+      }
+
+      #chat-message-container {
+        height: calc(128px - 22px);
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="game-manager" style="display: flex; align-items: start; height: 128px">
+      <div class="chat-container">
+        <div id="chat-message-container"></div>
+        <form id="chat-form">
+          <input name="message" style="width: 100%" type="text" placeholder="Message...">
+        </form>
+      </div>
+      <div id="position" style="color: #fff"></div>
+    </div>
+    <script type="module" src="src/index.js"><</script>
+  </body>
+</html>

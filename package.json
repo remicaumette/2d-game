@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "2d-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nf --procfile Procfile.dev start",
+    "server:start": "node server/index.js",
+    "server:dev": "nodemon server/index.js",
+    "client:dev": "vite dev client"
+  },
+  "dependencies": {
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "foreman": "^3.0.1",
+    "nodemon": "^2.0.20",
+    "vite": "^4.0.4"
+  }
+}

@@ -1,0 +1,2 @@
+server: PORT=3000 yarn server:dev
+client: yarn client:dev --port 8080
